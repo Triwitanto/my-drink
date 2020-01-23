@@ -28,8 +28,6 @@ class getDrink : ObservableObject{
                 let imageName = i.document.get("imageName") as! String
                 let price = i.document.get("price") as! String
 
-                print(name)
-
                 self.dates.append(DrinkRespon(id: id, name: name, desc: desc, imageName: imageName, price: price))
             }
         }
