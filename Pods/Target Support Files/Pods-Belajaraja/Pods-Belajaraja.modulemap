@@ -1,0 +1,6 @@
+framework module Pods_Belajaraja {
+  umbrella header "Pods-Belajaraja-umbrella.h"
+
+  export *
+  module * { export * }
+}
